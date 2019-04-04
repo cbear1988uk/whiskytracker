@@ -10,5 +10,5 @@ public interface DistilleryRepository extends JpaRepository<Distillery, Long>, D
 
     List<Distillery> findDistilleryById(Long Id);
 
-    List<Distillery> findDistilleriesWithWhiskies12YearsOld(int age);
+//    List<Distillery> findDistilleriesWithWhiskies12YearsOld(int age);
 }
